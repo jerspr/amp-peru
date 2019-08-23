@@ -1,0 +1,417 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+}
+.clear-fix:after,
+.clear-fix:before{
+  content: " ";
+  display: table;
+}
+.clear-fix:after{
+  clear: both;
+}
+.reset-ul{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+/*Header*/
+.block-header{
+  height: 615px;
+  background: #00223C;
+  position: relative;
+  overflow: hidden;
+}
+.block-header:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  bottom: -138px;
+  transform: skewY(-5deg);
+  background: #fff;
+}
+.bg-head{
+  height: 230px;
+  background: url(../img/bg-head.png?v1);
+  background-size: 170px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.inner-header{
+  height: 615px;
+  position: relative;
+}
+.logo-amp{
+  width: 536px;
+  height: 408px;
+  background: url(../img/logo-amp.svg?v1) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 56px;
+  left: 0;
+  z-index: 1;
+}
+.social-amp{
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+.social-amp span{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #00CB6E;
+  margin-right: 25px;
+}
+.social-amp ul{
+  display: inline-block;
+  vertical-align: middle;
+}
+.social-amp ul li{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 22px;
+}
+.social-amp ul li:first-child{
+  margin-left: 0;
+}
+.social-amp ul li a{
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+.social-amp ul li a.ico-fb{
+  background: url(../img/ico-fb.svg?v1) no-repeat;
+}
+.social-amp ul li a.ico-it{
+  background: url(../img/ico-it.svg?v1) no-repeat;
+}
+.header-photo{
+  width: 628px;
+  height: 441px;
+  background: url(../img/header-photo.png?v1) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 22px;
+  right: 0;
+  z-index: 1;
+}
+/*Content*/
+.block-product-amp{
+  padding: 20px 0;
+}
+.inner-product-amp h3{
+  font-size: 25px;
+  color: #00223C;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.item-product-amp{
+  border-top: 1px solid #CCCCCC;
+  padding: 25px 0;
+}
+.item-product-amp>.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+.item-product-amp>.row>.col-lg-5,
+.item-product-amp>.row>.col-lg-7{
+  padding-left: 0;
+  padding-right: 0;
+}
+.item-product-amp figure{
+  margin-bottom: 0;
+  position: relative;
+}
+.item-product-amp figure img{
+  width: 100%;
+}
+.item-product-amp figure .blo-t{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.item-product-amp figure .blo-t span{
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 27px;
+  background: url(../img/ico-b.png?v1) no-repeat;
+  background-size: 100% 100%;
+}
+.item-product-amp figure .blo-t em{
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #003E96;
+  line-height: 140%;
+}
+.info-moto-desc h2{
+  font-size: 42px;
+  font-weight: 300;
+  color: #08141F;
+  margin-bottom: 30px;
+}
+.info-moto-desc h2 span{
+  font-size: 30px;
+  color: #00CB6E;
+  font-weight: 300;
+}
+.table-espc{
+  margin-bottom: 20px;
+}
+.table-espc:last-child{
+  margin-bottom: 0;
+}
+.table-espc table{
+  margin-bottom: 0;
+}
+.table-espc table th{
+  text-align: center;
+  border-top: 0;
+  border-bottom: 1px solid #00CB6E;
+  font-size: 12px;
+  color: #00CB6E;
+  font-weight: 700;
+  padding: 8px;
+}
+.table-espc table td{
+  text-align: center;
+  font-size: 15px;
+  color: #434343;
+  font-weight: 300;
+  padding: 15px 8px;
+}
+.list-colors span{
+  display: inline-block;
+  vertical-align: middle;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  margin-right: 4px;
+}
+.list-colors span:last-child{
+  margin-right: 0;
+}
+.list-colors span.m-red{
+  background: #DA003B;
+}
+.list-colors span.m-white{
+  background: #FFFFFF;
+}
+.list-colors span.m-green{
+  background: #49BA86;
+}
+.list-colors span.m-blue{
+  background: #0056A3;
+}
+.f-12{
+  font-size: 12px;
+  font-style: normal;
+}
+
+.block-s-g{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #08141F;
+  padding: 15px 0;
+  z-index: 1;
+}
+.block-s-g p{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+.block-s-g p a{
+  font-weight: 700;
+  color: #00CB6E;
+}
+/*Footer*/
+footer{
+  height: 186px;
+  background: #00223C;
+  padding: 30px 0;
+}
+.block-footer>span{
+  width: 99px;
+  height: 35px;
+  background: url(../img/logo-footer.svg?v1) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+.block-footer>p{
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.block-footer>p>span{
+  font-weight: 700;
+}
+.w-cust{
+  width: 120px;
+}
+/*Responsive*/
+@media only screen and (max-width: 1200px){
+  .logo-amp{
+    width: 436px;
+    height: 345px;
+  }
+  .header-photo{
+    width: 528px;
+    height: 380px;
+  }
+  .info-moto-desc h2{
+    font-size: 40px;
+  }
+  .info-moto-desc h2 span{
+    font-size: 28px;
+  }
+  .table-espc {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 992px){
+  .block-header {
+    height: 515px;
+  }
+  .inner-header {
+    height: 515px;
+  }
+  .logo-amp {
+    width: 336px;
+    height: 262px;
+  }
+  .header-photo {
+    width: 428px;
+    height: 300px;
+  }
+  .block-header:after{
+    height: 200px;
+    bottom: -138px;
+    transform: skewY(-7deg);
+  }
+  .inner-product-amp h3{
+    text-align: center;
+  }
+  .item-product-amp figure{
+    width: 480px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .info-moto-desc h2 {
+    font-size: 38px;
+    text-align: center;
+  }
+  .info-moto-desc h2 span {
+    font-size: 26px;
+  }
+  .block-s-g p{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .bg-head {
+    height: 130px;
+    background-size: 96px;
+  }
+  .block-header {
+    height: 400px;
+  }
+  .inner-header {
+    height: 400px;
+  }
+  .block-header:after {
+    height: 180px;
+    transform: skewY(-6deg);
+  }
+  .social-amp {
+    top: 15px;
+    right: 10px;
+  }
+  .social-amp span{
+    margin-right: 15px;
+  }
+  .social-amp ul li{
+    margin-left: 8px;
+  }
+  .social-amp ul li a {
+    width: 28px;
+    height: 28px;
+    background-size: 100% 100%!important;
+  }
+  .block-footer{
+    text-align: center;
+  }
+  .block-footer>span{
+    display: inline-block;
+  }
+  .block-footer>p{
+    text-align: center;
+  }
+  .logo-amp {
+    width: 236px;
+    height: 183px;
+  }
+  .header-photo {
+    width: 328px;
+    height: 222px;
+  }
+  .item-product-amp figure{
+    width: 450px;
+  }
+  .block-s-g{
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 576px){
+  .logo-amp {
+    width: 200px;
+    height: 154px;
+  }
+  .header-photo {
+    width: 290px;
+    height: 206px;
+  }
+  .block-s-g p {
+    font-size: 13px;
+    line-height: 120%;
+  }
+}
+@media only screen and (max-width: 480px){
+  .logo-amp {
+    width: 180px;
+    height: 141px;
+  }
+  .header-photo {
+    width: 260px;
+    height: 178px;
+  }
+  .inner-product-amp h3{
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .item-product-amp figure{
+    width: 100%;
+  }
+  .info-moto-desc h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .info-moto-desc h2 span {
+    font-size: 20px;
+  }
+  .table-espc table td br{display: none;}
+}
